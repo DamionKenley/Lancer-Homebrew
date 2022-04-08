@@ -60,5 +60,20 @@
     "detail": "For every NHP installed, your mech gains +2 HP and +1 Save Target. Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal.",
     "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><em>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</em></p><p><em> -Xargi Prime</em></p>",
     "bonuses": [{"id":"hp","val":"6"}{"id":"save","val":"3"}]
-}
+},
+  {
+    "id": "ms_aceso_stabilizer",
+    "name": "ACESO STABILIZER",
+    "type": "Shield",
+    "sp": 3,
+    "tags": [
+      {"id": "tg_limited","val": 3},{"id":"tg_overshield"},{"id": "tg_shield"},{"id": "tg_unique"}],
+    "source": "IPS-N",
+    "license": "LANCASTER",
+    "license_level": 3,
+    "actions": [
+      {"activation": "Quick",
+        "detail": "Expend a charge to fire this small, self-arming system onto an allied mech within range 5. They gain Overshield equal to your Grit +4. While they have this Overshield they gain Immunity to Impaired and Jammed."}],
+    "description": "The IPS-N Aceso Stabilizer is a useful triage measure for any scoring and minor mechanical damage that is sustained in the course of combat engagement or negative environmental interaction. Thanks to its negligible processor demand, Aceso Stabilizers can even be controlled by comp/con units – this allows the pilot to concentrate on complex repairs or immediate threat neutralization."
+  }
 ]
