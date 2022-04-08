@@ -17,7 +17,7 @@
     "id":"sox_hueteocalli_casket_1"
     "name":"HUETEOCALLI CASKET 1"
     "sp":"3"
-    "tags": ["id": "tg_unique"},{"id": "tg_exotic"}],
+    "tags": [{"id": "tg_unique"},{"id": "tg_exotic"}],
     "source":"SoX",
     "license":"",
     "actions": [
@@ -32,7 +32,7 @@
     "id":"sox_hueteocalli_casket_2"
     "name":"HUETEOCALLI CASKET 2"
     "sp":"3"
-    "tags": ["id": "tg_unique"},{"id": "tg_exotic"}],
+    "tags": [{"id": "tg_unique"},{"id": "tg_exotic"}],
     "source":"SoX",
     "license":"",
     "actions": [
@@ -46,7 +46,7 @@
     "id":"sox_hueteocalli_casket_3"
     "name":"HUETEOCALLI CASKET 3"
     "sp":"3"
-    "tags": ["id": "tg_unique"},{"id": "tg_exotic"}],
+    "tags": [{"id": "tg_unique"},{"id": "tg_exotic"}],
     "source":"SoX",
     "license":"",
     "actions": [
