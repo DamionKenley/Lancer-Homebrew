@@ -1,0 +1,26 @@
+[
+  {
+    "id":"sox_ikedo_driver",
+    "name":"IKEDO DRIVER",
+    "sp":"3",
+    "allowed_types":[
+      "Melee"
+    ],
+    "source":"new",
+    "license":"",
+    "license_level":1,
+    "effect":"<p>Can be applied to: Melee Auxiliary, Melee Main, Melee Heavy, Melee Super Heavy </p><p>When activated, this system allows you to convert your remaining Movement into additional Energy Damage. 1 point of Movement sacrificed equals 1 point of Energy Damage added to this weapon’s next attack. Bonus Damage stored this way dissipates at the start of your next turn.</p>",
+    "description":"<p>In the early days of the Seekers, some focused on studying and developing new ways to travel the universe, looking for a way to quickly track the Omi-Soul. The attempts were all abject failures, more often than not leading to early and ignoble deaths. The failed research and designs were offered up to Xargi that something good might come of them, and soon after the Ikedo Driver was synthesized and delivered unto the faithful. </p><p>Utilizing a blink space phenomenon to store and rapidly release kinetic energy, the Ikedo Driver allows for rapid motions through real space that come far closer to the speed of light than previously thought possible, though only on a small scale, making it far more useful for combat than transportation. It was soon widely adopted by the Seekers, and served to further encourage their love of close quarters combat. </p><p><em>When the Prey is still, the Hunter is near. When the Hunter is still, the Prey knows Fear.</em></p><p><em> &nbsp;&nbsp;&nbsp; -Xargi Prime</em></p>",
+    "tags":[
+      {
+        "id":"tg_unique"
+      },
+      {
+        "id":"tg_mod"
+      },
+      {
+        "id":"tg_exotic"}
+    ],
+    "actions":[{"name":"","activation":"Free","detail":"<p>When activated, this system allows you to convert your remaining Movement into additional Energy Damage. 1 point of Movement sacrificed equals 1 point of Energy Damage added to this weapon’s next attack. Bonus Damage stored this way dissipates at the start of your next turn.</p>","cost":0,"pilot":false,"damage":[],"range":[],"synergy_locations":[],"tech_attack":false,"frequency":"Unlimited","init":"","trigger":""}]
+	}
+]

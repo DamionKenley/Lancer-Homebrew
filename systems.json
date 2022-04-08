@@ -1,0 +1,17 @@
+[
+	{
+	  "id":"sox_burn-scar_melody",
+	  "name":"Burn-Scar Melody",
+	  "sp":"2",
+	  "type":"System",
+	  "tags": [
+	    {"id": "tg_shield"}, {"id": "tg_limited", "val": "2"}
+	],
+	"source":"new",
+	"license":"",
+	"actions": [{"name":"JOIN THE CHORUS","activation": "Quick","detail":"Choose a character within Range 5 and Line of Sight. Whenever that character would take Heat, you take it instead. If this system would force you to take Reactor Stress, you may instead take the GLORIOUS PURPOSE reaction. This effect ends when the target leaves SENSORS or you use the GLORIOUS PURPOSE reaction."},
+	    {"name":"GLORIOUS PURPOSE","activation": "Reaction","frequency": "1/round","trigger": "The next time you would overheat.","detail":"Make a Melee attack against a character within threat range. On a hit, the target takes an additional 1d6 Burn Damage, and you are returned to the Danger Zone. On a miss, you take Reactor Stress as normal."}
+	],
+		"description":"<p>The Burn Scar Melody is the most recent addition to the Seekers arsenal, though it is already seeing a great deal of use in the field. Seeker Therese Long is credited with the creation, and enjoys something of a celebrity status amongst Seekers as a result. By modifying a Diluvian Ark and feeding her hound the remains of a cascading Noah class NHP, she developed a system of intricate thermal dynamic redistribution, allowing for rapid transferring of massive quantities of heat in mere microseconds. She named the Melody after the particular sounds the system elicits when used in atmosphere, a collection of high pitched whines and moans that sound horrific alone, but harmonize together to form what some would call a song.</p><p><br><code class='horus'>Join your voice with mine my children, howl with me to the distant moons. Ours is a song of Blood and Fire, and all the world shall hear it.</em></p><p><em>-Xargi Prime</br></p>"
+  }
+]
