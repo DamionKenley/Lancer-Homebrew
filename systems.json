@@ -53,6 +53,7 @@
     "source":"SoX",
     "license":"",
     "license_level":1,
+    "effect": "Gain the JOIN THE CHORUS quick action, and the GLORIOUS PURPOSE reaction",
     "actions": [
       {"name":"JOIN THE CHORUS","activation": "Quick","detail":"Choose a character within Range 5 and Line of Sight. Whenever that character would take Heat, you take it instead. If this system would force you to take Reactor Stress, you may instead take the GLORIOUS PURPOSE reaction. This effect ends when the target leaves SENSORS or you use the GLORIOUS PURPOSE reaction."},
       {"name":"GLORIOUS PURPOSE","activation": "Reaction","frequency": "1/round","trigger": "The next time you would overheat.","detail":"Make a Melee attack against a character within threat range. On a hit, the target takes an additional 1d6 Burn Damage, and you are returned to the Danger Zone threshhold. On a miss, you take Reactor Stress as normal."}
