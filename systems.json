@@ -4,14 +4,14 @@
     "name":"HUETEOCALLI CASKET 1",
     "sp":3,
     "type": "System",
-    "tags": [{"id": "tg_unique"}, {"id": "tg_exotic"}],
+    "tags": [{"id":"tg_unique"},{"id":"tg_seekers"},{"id":"tg_exotic"},{"id":"tg_unique"}],
     "source":"SoX",
     "license":"",
     "license_level": 1,
     "actions": [
       {"name":"ABDICATE","activation": "Quick","detail":"Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal."}],
     "effect": "For every NHP installed, your mech gains +2 HP and +1 Save Target. Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal.",
-    "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><em>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</em></p><p><em> -Xargi Prime</em></p>",
+    "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><br><code class='horus'>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</br>-Xargi Prime</p>",
     "bonuses": [{"id":"hp","val":"2"},{"id":"save","val":"1"}]
   },
   {
@@ -19,14 +19,14 @@
     "name":"HUETEOCALLI CASKET 2",
     "sp":3,
     "type": "System",
-    "tags": [{"id": "tg_unique"}, {"id": "tg_exotic"}],
+    "tags": [{"id":"tg_unique"},{"id":"tg_seekers"},{"id":"tg_exotic"},{"id":"tg_unique"}],
     "source":"SoX",
     "license":"",
     "license_level": 1,
     "actions": [
       {"name":"ABDICATE","activation": "Quick","detail":"Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal."}],
     "effect": "For every NHP installed, your mech gains +2 HP and +1 Save Target. Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal.",
-    "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><em>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</em></p><p><em> -Xargi Prime</em></p>",
+    "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><br><code class='horus'>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</br>-Xargi Prime</p>",
     "bonuses": [{"id":"hp","val":"4"},{"id":"save","val":"2"}]
   },
   {
@@ -34,22 +34,22 @@
     "name":"HUETEOCALLI CASKET 3",
     "sp":3,
     "type": "System",
-    "tags": [{"id": "tg_unique"}, {"id": "tg_exotic"}],
+    "tags": [{"id":"tg_unique"},{"id":"tg_seekers"},{"id":"tg_exotic"},{"id":"tg_unique"}],
     "source":"SoX",
     "license":"",
     "license_level": 1,
     "actions": [
       {"name":"ABDICATE","activation": "Quick","detail":"Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal."}],
     "effect": "For every NHP installed, your mech gains +2 HP and +1 Save Target. Should any of your equipped NHPs enter cascade, you can destroy this system as a quick action to return them to normal.",
-    "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><em>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</em></p><p><em> -Xargi Prime</em></p>",
+    "description": "<p>Named after an ancient holy place dedicated to a God of War and Rain, the Hueteocalli Casket is a remnant of the first Seeker who's name only Xargi knows. In those days Xargi Prime rode to war alongside her chosen, and witnessed their death first hand. It was said they were unstoppable, that they would walk together through fire and blood unharmed while dealing death to all who stood before them. Xargi alone knows the truth of those legends, but the Hueteocalli Casket lends them some amount of authenticity. </p><p>By amplifying and projecting the inherently paracausal thought waves of a full NHP the Casket generates a localized metafold field. In essence this converts the NHPs will into universal law within the Caskets range. This incredible power is oddly limited despite its theoretical infinite scaling as NHPs, particularly those who are not Xargi Class NHPs, struggle to fully utilize a system designed for and by a Prime NHP who exists as an eternal legion. </p><p><br><code class='horus'>And so we shall share the twinned thrones, I as your God of Death, and you as my God of Life. May our reign be as terrible as it is eternal.</br>-Xargi Prime</p>",
     "bonuses": [{"id":"hp","val":"6"},{"id":"save","val":"3"}]
   },
   {
     "id":"sox_burn-scar_melody",
-    "name":"Burn-Scar Melody",
+    "name":"BURN-SCAR MELODY",
     "sp":2,
     "type":"System",
-    "tags": [{"id": "tg_shield"}, {"id": "tg_limited","val": "2"}, {"id": "tg_exotic"}],
+    "tags": [{"id": "tg_shield"},{"id":"tg_seekers"}, {"id": "tg_limited","val": "2"},{"id": "tg_exotic"},{"id":"tg_unique"}],
     "source":"SoX",
     "license":"",
     "license_level":1,
@@ -57,6 +57,20 @@
       {"name":"JOIN THE CHORUS","activation": "Quick","detail":"Choose a character within Range 5 and Line of Sight. Whenever that character would take Heat, you take it instead. If this system would force you to take Reactor Stress, you may instead take the GLORIOUS PURPOSE reaction. This effect ends when the target leaves SENSORS or you use the GLORIOUS PURPOSE reaction."},
       {"name":"GLORIOUS PURPOSE","activation": "Reaction","frequency": "1/round","trigger": "The next time you would overheat.","detail":"Make a Melee attack against a character within threat range. On a hit, the target takes an additional 1d6 Burn Damage, and you are returned to the Danger Zone threshhold. On a miss, you take Reactor Stress as normal."}
 	],
-		"description":"<p>The Burn Scar Melody is the most recent addition to the Seekers arsenal, though it is already seeing a great deal of use in the field. Seeker Therese Long is credited with the creation, and enjoys something of a celebrity status amongst Seekers as a result. By modifying a Diluvian Ark and feeding her hound the remains of a cascading Noah class NHP, she developed a system of intricate thermal dynamic redistribution, allowing for rapid transferring of massive quantities of heat in mere microseconds. She named the Melody after the particular sounds the system elicits when used in atmosphere, a collection of high pitched whines and moans that sound horrific alone, but harmonize together to form what some would call a song.</p><p><br><code class='horus'>Join your voice with mine my children, howl with me to the distant moons. Ours is a song of Blood and Fire, and all the world shall hear it.</br></p><p>-Xargi Prime</p>"
+		"description":"<p>The Burn Scar Melody is the most recent addition to the Seekers arsenal, though it is already seeing a great deal of use in the field. Seeker Therese Long is credited with the creation, and enjoys something of a celebrity status amongst Seekers as a result. By modifying a Diluvian Ark and feeding her hound the remains of a cascading Noah class NHP, she developed a system of intricate thermal dynamic redistribution, allowing for rapid transferring of massive quantities of heat in mere microseconds. She named the Melody after the particular sounds the system elicits when used in atmosphere, a collection of high pitched whines and moans that sound horrific alone, but harmonize together to form what some would call a song.</p><p><br><code class='horus'>Join your voice with mine my children, howl with me to the distant moons. Ours is a song of Blood and Fire, and all the world shall hear it.</br>-Xargi Prime</p>"
+  },
+  {
+    "id":"sox_pack_hunter",
+    "name":"PACK HUNTER",
+    "sp":2,
+    "type":"System",
+    "tags": [{"id":"tg_seekers"}, {"id": "tg_heat_self","val": "2"},{"id": "tg_exotic"},{"id":"tg_unique"}],
+    "source":"SoX",
+    "license":"",
+    "license_level":1,
+	"effect":"Once per Round after making a successful Tech Attack against a target within SENSORS or applying LOCK-ON, you may take the SCENT OF BLOOD Free Action.",
+	"actions": [
+  {"name":"SCENT OF BLOOD","activation": "Free","detail":"Move either yourself or a willing Ally within SENSORS up to 3 spaces towards the target in a straight line."}],
+	"description":"<p>The Pack Hunter system does function well within traditional Seeker combat doctrine, but primarily functions as a recruitment and training tool. Recruiters keep tabs on pilots who respond well to the increased mobility the system offers, as they are more likely to respond well to other aspects of a Seekers lifestyle. Newly initiated Seekers who struggle to adapt to their heightened aggressive instincts use the system as both an outlet and a means of learning finer control.</p><p><br><code class='horus'>Hunt not only for glory or pleasure, but to live. To know that in dealing death, you are sustained.</br> -Xargi Prime</p>"
   }
 ]
