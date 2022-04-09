@@ -1,0 +1,26 @@
+[
+    {
+      "id": "sox_amarok_talons",
+      "name": "AMAROK TALONS",
+      "mount": "Auxiliary",
+      "type": "Melee",
+      "source": "SoX",
+      "license": "",
+      "license_level":1,
+      "actions":[{"name":"Extend/Retract","activation":"Protocol","detail":"Change this weapon's profile."}],
+      "tags":[{"id":"tg_exotic"},{"id":"tg_seekers"}],
+      "effect":"Switch between extended and retracted as a Protocol",
+      "profiles": [{
+          "name": "Retracted",
+          "range": [{"type": "Threat","val": 1}],
+          "damage": [{"type": "Kinetic","val": "1d3"}]
+        },
+        {
+          "name": "Extended",
+          "range": [{"type": "Threat","val": 1}],
+          "damage": [{"type": "Kinetic","val": "1d6"}],
+          "effect": "While extended, you are unable to make ranged attacks."}
+      ],
+      "description": "<p>In years past, several Seekers found themselves in a position to utilize experimental equipment, the most notable of which was Harrison Armory's Enkidu chassis. While the Enkidu chassis was abandoned by HA, those who had the privilege of participating in the test went on to develop their own approximation of its core combat system. The Amarok Talons are relatively simple additions to any mech, as retractable claws are not particularly difficult to manufacture. However, with the aid of Xargi Prime, the engineers managed to make a functional set of claws with power comparable to more contemporary weapon systems, allowing them to truly embrace the form of combat they had grown so fond of.</p><p>Rend with claw and fang, feel their life blood on your face and scream your triumph to the heavens. -Xargi Prime</p>"
+    }
+  ]
