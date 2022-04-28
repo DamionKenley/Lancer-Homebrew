@@ -3,16 +3,9 @@
     "id": "t_death-seeker",
     "name": "DEATH-SEEKER",
     "terse": "You have inherited a Black Hound, a unique NHP created and gifted to you by Xargi Prime.",
-    "description": "The Black Hounds are not NHP's in the traditional sense, and many union scientists would hesitate to label them as such. For one, these NHP’s are clones of Xargi fed through a personality matrix composed of a mix of dozens of long dead seekers. For another the Hounds don’t travel in a traditional casket, and are instead installed directly into  the minds of willing acolytes. There the hounds become little more than an instinct, a drive, a half remembered dream of black smoke. The Hounds drive their Seekers ever onward, leading them to battle after battle, all in search of a mysterious artifact known as the Omi-Soul. Those who play host to these entities find themselves changed, more aggressive, more violent, some could almost be described as feral. Union Scientists have yet to discern if this change is the result of the Hounds instincts overriding the host, or if the hosts had always been a hairs breadth away from savagery.",
+    "description": "The Black Hounds are not NHP's in the traditional sense, and many union scientists would hesitate to label them as such. For one, these NHPs are clones of Xargi fed through a personality matrix composed of a mix of dozens of long dead seekers. For another the Hounds don't travel in a traditional casket, and are instead installed directly into  the minds of willing acolytes. There the hounds become little more than an instinct, a drive, a half remembered dream of black smoke. The Hounds drive their Seekers ever onward, leading them to battle after battle, all in search of a mysterious artifact known as the Omi-Soul. Those who play host to these entities find themselves changed, more aggressive, more violent, some could almost be described as feral. Union Scientists have yet to discern if this change is the result of the Hounds instincts overriding the host, or if the hosts had always been a hairs breadth away from savagery.",
     "ranks": [
-      {
-        "name": "ACOLYTE",
-        "description": "When printing a Mech and during a Full Repair you may select one of your Pilot Skills and apply +1 Accuracy to all Checks and Saves with that skill, as the hound guides your hand and shapes your unconscious thoughts",
-		        "synergies": [
-          {"locations": ["active_effects"],
-            "detail": "When printing a Mech and during a Full Repair you may select one of your Pilot Skills and apply +1 Accuracy to all Checks and Saves with that skill, as the hound guides your hand and shapes your unconscious thoughts."}]
-      },
-      {
+	  {
         "name": "RABID LUNGE",
         "description": "The influence of your Hound has grown stronger, and your connection has deepened. Once per round when an enemy hits you with an attack, you may move up to 3 spaces towards them as a free action. This movement does not provoke Reactions or trigger Overwatch.",
 		"actions": [{
@@ -25,9 +18,32 @@
         ]
       },
       {
-        "name": "FEED THE HOUND",
-        "description": "Your Hound hungers, and you know how to feed them. You gain 2 additional System Points which must be spent towards the cost of an NHP. The NHP is then consumed by your Hound, and any personality or sense of self the NHP might have is suppressed, in favor of your Hound's own personality and quirks. The NHP otherwise operates as normal, including entering cascade, as the forced Legion breaks down.",
-        "bonuses": [{"id": "sp","val": 2}]
+        "name": "HOWL",
+        "description": "You gain +1 Accuracy to Tech Attacks made within Range 5",
+		        "synergies": [
+          {"locations": ["active_effects"],
+            "detail": "You gain +1 Accuracy to Tech Attacks made within Range 5"}]
+      },
+      {
+        "name": "MAIM",
+        "description": "You gain a Maul Die, which starts at 3. When making a successful Tech Attack, the Die goes up by 1. You may count the Die down by 1 when making a successful Melee attack to reduce the targets Evasion or E-Defense by 2 until the start of your next turn. A target can only be affected by 2 instances of this ability at a time.",
+        "counters": [{
+            "id": "ctr_death-seeker",
+            "name": "Maul",
+            "default_value": 3,
+            "min": 0,
+            "max": 6
+          }],
+		"actions": [{
+            "name": "Maim",
+            "activation": "Quick",
+			"synergies": [{
+              "locations": ["active_effects"],
+              "detail": "Whenever you make a successful Tech Attack, increase the value of the Maul Die by 1."}],
+			"frequency":"Whenever you make a successful Tech Attack",
+            "detail": "You may move up to 3 spaces directly towards the enemy that triggered this reaction. This movement does not provoke Reactions or trigger Overwatch."
+          }
+        ]
       }
     ]
   }
